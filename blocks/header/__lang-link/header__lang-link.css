@@ -1,8 +1,14 @@
-.language{
+.header__lang-link{
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
     color: #FFF;
+    text-decoration: none;
+    margin: 18px 18px 6px 0;
+}
+
+.header__lang-link:nth-child(2n){
+    margin-right: 0;
 }
