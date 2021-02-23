@@ -1,0 +1,9 @@
+.photo-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* box-sizing: border-box; */
+    width: 1184px;
+    gap: 16px;
+    margin: 92px auto 0;
+}

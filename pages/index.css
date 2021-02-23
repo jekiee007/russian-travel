@@ -19,10 +19,22 @@
 @import url("../blocks/intro/__list/_item/intro__list_item.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__title/intro__title.css");
+/* Сетка фотографий */
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/photo-grid/__item/photo-grid__item.css");
+/* Места */
+@import url('../blocks/places/places.css');
+@import url('../blocks/places/place/place.css');
+@import url('../blocks/places/place/__title/place__title.css');
+@import url('../blocks/places/place/__website/place__website.css');
+@import url('../blocks/places/place/__website/_link/place__website_link.css');
+@import url('../blocks/places/place/__website/_url-heading/place__website_url-heading.css');
+@import url('../blocks/places/place/__image/place__image.css');
+
 
 
 /* Класс-чинилка :) */
-div,
+/* div,
 h1,
 h2,
 h3,
@@ -37,4 +49,5 @@ ul,
 section,
 footer {
   border: 1px solid red;
-}
+  box-sizing: border-box;
+} */
