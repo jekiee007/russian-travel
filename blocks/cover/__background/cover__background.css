@@ -1,0 +1,7 @@
+.cover__background{
+    height: 740px;
+    width: 1184px;
+    z-index: 0;
+    object-fit: cover;
+    background-image: url('../../../images/background__to-the-baykal.jpg');
+}

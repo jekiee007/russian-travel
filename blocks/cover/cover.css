@@ -1,0 +1,8 @@
+.cover {
+    position: relative;
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 92px auto 0;
+    box-sizing: border-box;
+    background-size: cover;
+}

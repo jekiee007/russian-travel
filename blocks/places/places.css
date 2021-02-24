@@ -3,6 +3,6 @@
     margin: 92px auto 0;
     padding: 0;
     width: 984px;
-    
     grid-auto-flow: row;
+    gap: 80px;
 }
