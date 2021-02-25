@@ -7,4 +7,15 @@
   line-height: 22px;
   text-decoration-line: underline;
   color: #fff;
+  transition: opacity 0.3s ease;
+}
+
+.place__website_link:hover{
+opacity: 0.4;
+}
+
+@media screen and (max-width: 767px) {
+  .place__website_link {
+    margin: 12px 16px 0 16px;
+  }
 }

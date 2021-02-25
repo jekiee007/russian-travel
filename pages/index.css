@@ -16,7 +16,7 @@
 /* Вводная */
 @import url("../blocks/intro/intro.css");
 @import url("../blocks/intro/__list/intro__list.css");
-@import url("../blocks/intro/__list/_item/intro__list_item.css");
+@import url("../blocks/intro/__item/intro__list_item.css");
 @import url("../blocks/intro/__text/intro__text.css");
 @import url("../blocks/intro/__title/intro__title.css");
 /* Сетка фотографий */
@@ -37,6 +37,16 @@
 @import url('../blocks/cover/__overlay/cover__overlay.css');
 @import url('../blocks/cover/__subtitle/cover__subtitle.css');
 @import url('../blocks/cover/__title/cover__title.css');
+/* Подвал */
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__list/footer__list.css');
+@import url('../blocks/footer/__links/footer__links.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');
+@import url('../blocks/footer/__link/footer__link.css');
+
+
+
+
 
 
 

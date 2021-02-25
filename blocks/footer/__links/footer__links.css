@@ -1,0 +1,22 @@
+.footer__links {
+  margin: 0 18px 0 0;
+}
+
+.footer__links:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__links {
+    margin: 32px 0 0 0;
+    flex-direction: column;
+  }
+
+  .footer__links:last-child {
+    margin: 32px 0 0 0;
+  }
+
+  .footer__links:first-child {
+    margin: 0;
+  }
+}
