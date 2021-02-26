@@ -1,28 +1,53 @@
 .cover__background {
-  height: 740px;
-  max-width: 1184px;
-  object-fit: cover;
+  /* max-width: 1184px; */
+  min-height: 740px;
+  /* object-fit: cover; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../../../images/background__to-the-baykal.jpg");
-  background-size: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  /* background-repeat: no-repeat ; */
+  
 }
+
+.cover__background:before{
+  content: '';
+  background-color: #000;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.cover__background:hover::before {
+  opacity: 0.5;
+  }
 
 @media screen and (max-width: 1279px) {
   .cover__background {
-    height: 640px;
-    max-width: 1024px;
+    min-height: 640px;
+    /* max-width: 1024px; */
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
-    height: 480px;
-    max-width: 768px;
+    min-height: 480px;
+    /* max-width: 768px; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
-    height: 200px;
-    max-width: 320px;
+    min-height: 200px;
+    /* max-width: 320px; */
   }
 }
