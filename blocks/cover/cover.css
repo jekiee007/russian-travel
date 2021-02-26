@@ -10,8 +10,8 @@
 @media screen and (max-width: 1023px) {
   .cover {
     margin: 90px auto 0;
-    height: 480px;
-    width: 768px;
+    max-height: 480px;
+    max-width: 100%;
   }
 }
 
@@ -22,4 +22,3 @@
     width: 320px;
   }
 }
-

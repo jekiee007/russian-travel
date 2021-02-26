@@ -1,7 +1,6 @@
 .cover__background {
   height: 740px;
-  width: 1184px;
-  z-index: 0;
+  max-width: 1184px;
   object-fit: cover;
   background-image: url("../../../images/background__to-the-baykal.jpg");
   background-size: 100%;
@@ -10,20 +9,20 @@
 @media screen and (max-width: 1279px) {
   .cover__background {
     height: 640px;
-    width: 1024px;
+    max-width: 1024px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .cover__background {
     height: 480px;
-    width: 768px;
+    max-width: 768px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover__background {
     height: 200px;
-    width: 320px;
+    max-width: 320px;
   }
 }
