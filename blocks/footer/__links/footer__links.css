@@ -1,0 +1,26 @@
+.footer__list_links {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  margin: 0 18px 0 0;
+}
+
+.footer__list_links:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__list_links {
+    margin: 32px 0 0 0;
+    flex-direction: column;
+  }
+
+  .footer__list_links:last-child {
+    margin: 32px 0 0 0;
+  }
+
+  .footer__list_links:first-child {
+    margin: 0;
+  }
+}
