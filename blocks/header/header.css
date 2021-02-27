@@ -1,7 +1,6 @@
 .header {
   max-width: 1184px;
   margin: 0 auto;
-  height: 52px;
   display: flex;
   justify-content: space-between;
 }
@@ -21,6 +20,5 @@
 @media screen and (max-width: 767px) {
   .header {
     max-width: 288px;
-    height: 42px;
   }
 }

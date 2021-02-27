@@ -3,8 +3,6 @@
     min-width: 320px;
     padding: 28px 0 0;
     margin: 0 auto;
-    font-family: "Inter", Arial, sans-serif;
-    color: #fff;
 }
 
 @media screen and (max-width: 1279px) {
