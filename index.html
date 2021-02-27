@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -9,20 +9,18 @@
     <title>Путешествия по России</title>
 </head>
 
-<body>
+<body class="page">
+    <div class="page__container">
+        <!--1. Шапка сайта-->
+        <header class="header">
+            <img class="header__logo" src="./images/__logo.svg" alt="Лого Россия" class="logo">
+            <div class="header__lang-panel">
+                <a class="header__lang-link header__lang-link_marked" href="#" target="_self">Ru</a>
+                <a class="header__lang-link" href="#" target="_self">En</a>
+            </div>
 
-    <div class="page">
-        <div class="page__container">
-            <!--1. Шапка сайта-->
-            <header class="header">
-                <img src="./images/__logo.svg" alt="Лого Россия" class="logo">
-                <div class="header__lang-panel">
-                    <a class="header__lang-link header__lang-link_marked" href="#" target="_self">Ru</a>
-                    <a class="header__lang-link" href="#" target="_self">En</a>
-                </div>
-
-            </header>
-
+        </header>
+        <main>
             <!--2. Вводная часть-->
             <section class="lead">
                 <h1 class="lead__title">
@@ -57,20 +55,34 @@
                 </p>
                 <ul class="intro__list">
                     <li class="intro__item">
-                        Часовых поясов 11
+                        Часовых поясов
+                        <span class="intro__item_number-font">
+                            11
+                        </span>
                     </li>
                     <li class="intro__item">
-                        Объектов природного наследия ЮНЕСКО 12
+                        Объектов природного наследия ЮНЕСКО
+                        <span class="intro__item_number-font">
+                            12
+                        </span>
                     </li>
                     <li class="intro__item">
-                        Объектов культурного наследия ЮНЕСКО 16
+                        Объектов культурного наследия ЮНЕСКО
+                        <span class="intro__item_number-font">
+                            16
+                        </span>
                     </li>
                     <li class="intro__item">
-
-                        Природных заповедников 105
+                        Природных заповедников
+                        <span class="intro__item_number-font">
+                            105
+                        </span>
                     </li>
                     <li class="intro__item">
-                        Аэропортов 241
+                        Аэропортов
+                        <span class="intro__item_number-font">
+                            241
+                        </span>
                     </li>
                 </ul>
             </section>
@@ -101,7 +113,7 @@
                     </h2>
                     <div class="place__website">
                         <p class="place__url-heading">
-                            URL
+                            url
                         </p>
                         <a class="place__link" href="http://park-kosa.ru" target="_blank">
                             park-kosa.ru
@@ -135,7 +147,7 @@
                     </h2>
                     <div class="place__website">
                         <p class="place__url-heading">
-                            URL
+                            url
                         </p>
                         <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
                             target="_blank">
@@ -169,7 +181,7 @@
                     </h2>
                     <div class="place__website">
                         <p class="place__url-heading">
-                            URL
+                            url
                         </p>
                         <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
                             target="_blank">
@@ -202,7 +214,7 @@
                     </h2>
                     <div class="place__website">
                         <p class="place__url-heading">
-                            URL
+                            url
                         </p>
                         <a class="place__link" href="https://vk.com/baikalmile" target="_blank">
                             https://vk.com/baikalmile
@@ -262,52 +274,54 @@
 
             <!--6. Обложка-->
             <section class="cover">
-                <div class="cover__background">
-                        <h2 class="cover__title">
-                            До Байкала «на собаках»
-                        </h2>
-                        <p class="cover__subtitle">
-                            По мотивам учебной темы о Транссибе —
-                            путешествие от столицы до Байкала на электричках.
-                        </p>
-                </div>
-
+                <a class="cover__background" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+                    <h2 class="cover__title">
+                        До Байкала «на собаках»
+                    </h2>
+                    <p class="cover__subtitle">
+                        По мотивам учебной темы о Транссибе —
+                        путешествие от столицы до Байкала на электричках.
+                    </p>
+                </a>
             </section>
 
             <!--7. Подвал-->
             <footer class="footer">
-                <ul class="footer__list">
-                    <li class="footer__links">
-                        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">
-                            Карты
-                        </a>
-                    </li>
-                    <li class="footer__links">
-                        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">
-                            Погода
-                        </a>
-                    </li>
-                    <li class="footer__links">
-                        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">
-                            Расписание
-                        </a>
-                    </li>
-                    <li class="footer__links">
-                        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">
-                            Календарь
-                        </a>
-                    </li>
-                    <li class="footer__links">
-                        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">
-                            Путешествия
-                        </a>
-                    </li>
-                </ul>
-                <p class="footer__copyright">© 2021. Гук Евгений</p>
+                <nav>
+                    <ul class="footer__list">
+                        <li class="footer__links">
+                            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">
+                                Карты
+                            </a>
+                        </li>
+                        <li class="footer__links">
+                            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">
+                                Погода
+                            </a>
+                        </li>
+                        <li class="footer__links">
+                            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">
+                                Расписание
+                            </a>
+                        </li>
+                        <li class="footer__links">
+                            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">
+                                Календарь
+                            </a>
+                        </li>
+                        <li class="footer__links">
+                            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">
+                                Путешествия
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="footer__copyright">&copy; 2021. Гук Евгений</p>
             </footer>
-        </div>
+        </main>
 
     </div>
+
 
 </body>
 

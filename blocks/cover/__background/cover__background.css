@@ -6,14 +6,17 @@
   background-image: url("../../../images/background__to-the-baykal.jpg");
   box-sizing: border-box;
   background-size: cover;
+  background-position: center;
   position: relative;
   z-index: 1;
-  
+  font-family: "Inter", Arial, sans-serif;
+  color: #fff;
+  text-decoration: none;
 }
 
-.cover__background:before{
-  content: '';
-  background-color: #000;
+.cover__background:before {
+  content: "";
+  background-color: #2A2C2F;
   opacity: 0.3;
   position: absolute;
   top: 0;
@@ -21,12 +24,12 @@
   bottom: 0;
   left: 0;
   z-index: -1;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .cover__background:hover::before {
-  opacity: 0.5;
-  }
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 1279px) {
   .cover__background {
